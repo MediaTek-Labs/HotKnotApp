@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:padding="10dp"
+        android:textSize="18sp"
+        />
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/btn_OK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:padding="10dp"
+        android:textSize="18sp"
+        />
+</LinearLayout>

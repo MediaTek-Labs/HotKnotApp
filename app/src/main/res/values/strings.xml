@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HotKnot App</string>
+    <string name="action_settings">Settings</string>
+    <string name="info">Ensure that HotKnot is enabled by turning it on in
+        the system Settings (select the setting icon above).</string>
+    <string name="hotknot_menu_description">HotKnot System Settings</string>
+    <string name="hotknot_send_message">Send short message with HotKnot</string>
+    <string name="send_hotknot_file_btn">Send files with HotKnot</string>
+    <string name="title_activity_receive">ReceiveActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

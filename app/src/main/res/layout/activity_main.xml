@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/et_message"
+        android:text="Hello from HotKnot"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/btn_send_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotknot_send_message" />
+    <Button
+        android:id="@+id/btn_send_file"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_hotknot_file_btn" />
+    <TextView
+        android:text=""
+        android:id="@+id/tv_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
